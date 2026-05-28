@@ -1,1 +1,0 @@
-make folders for pages and link them here :> this is blog
