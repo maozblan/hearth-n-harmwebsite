@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 html {
-  --white: #ddd;
-  --black: #000;
+  --white: rgb(221, 221, 221);
+  --black: rgb(0, 0, 0);
+  --selected: rgb(50, 120, 233);
 }
 
 * {
@@ -15,6 +16,10 @@ h3,
 h4,
 h5 {
   font-family: 'Silkscreen', monospace;
+}
+
+span {
+  font-family: inherit;
 }
 
 html, body {

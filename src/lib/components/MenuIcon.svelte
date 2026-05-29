@@ -12,6 +12,7 @@
 <style>
   a {
     width: 7rem;
+    margin: 0.5rem;
   }
 
   img {
