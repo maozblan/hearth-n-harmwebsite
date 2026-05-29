@@ -11,7 +11,6 @@ export function entries() {
 
 export function load({ params }) {
 	const character = enemyData[params.enemy];
-	console.log(character);
 
 	if (!character) {
 		error(404, 'Page under construction');

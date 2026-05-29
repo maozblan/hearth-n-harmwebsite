@@ -13,7 +13,10 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 
 		// switching to adapter-static for github pages deployment https://www.captaincodeman.com/deploy-a-sveltekit-app-to-github-pages
-		adapter: adapter()
+		adapter: adapter(),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/hearth-n-harmwebsite' : ''
+		}
 	}
 };
 
