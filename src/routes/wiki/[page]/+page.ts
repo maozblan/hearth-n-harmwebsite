@@ -1,3 +1,4 @@
+import { enemyData } from '$lib/data/enemyData';
 import { pages } from '$lib/data/pageData.js';
 import { error } from '@sveltejs/kit';
 
