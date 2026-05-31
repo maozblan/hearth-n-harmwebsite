@@ -39,3 +39,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.hide {
+  display: none;
+}

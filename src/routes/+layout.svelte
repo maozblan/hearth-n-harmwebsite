@@ -32,6 +32,10 @@
   <div>
     {@render children()}
   </div>
+
+  <footer>
+    <h4 class:hide={page.url.pathname === '/'}>&copy; Copyright Salmon Shake Studios 2026</h4>
+  </footer>
 </div>
 
 <style>
@@ -65,5 +69,9 @@
     & > div {
       flex-grow: 1;
     }
+  }
+
+  footer * {
+    text-align: center;
   }
 </style>
