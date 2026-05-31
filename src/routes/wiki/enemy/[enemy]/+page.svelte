@@ -7,4 +7,3 @@
 <img src={data.enemy.image} alt={data.enemy.name} />
 
 <p>{data.enemy.description}</p>
-

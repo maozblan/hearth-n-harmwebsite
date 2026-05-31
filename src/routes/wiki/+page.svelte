@@ -18,7 +18,7 @@
   <MenuIcon
     name={c?.displayName ?? c.name}
     imgId={c.pfpId}
-    href="/character/{c.id}"
+    href="/wiki/character/{c.id}"
   />
   {/each}
 </div>
@@ -27,7 +27,7 @@
   <MenuIcon
     name={enemy?.displayName ?? enemy.name}
     imgId={enemy.pfpId}
-    href="/enemy/{enemy.id}"
+    href="/wiki/enemy/{enemy.id}"
   />
   {/each}
 </div>
