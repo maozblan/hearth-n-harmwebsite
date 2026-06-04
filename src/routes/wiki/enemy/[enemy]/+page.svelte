@@ -2,8 +2,4 @@
 	let { data } = $props();
 </script>
 
-<h1>{data.enemy.name}</h1>
-
-<img src={data.enemy.image} alt={data.enemy.name} />
-
-<p>{data.enemy.description}</p>
+<h1>PAGE TBD</h1>

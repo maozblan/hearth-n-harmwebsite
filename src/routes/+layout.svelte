@@ -29,7 +29,7 @@
       <h2>PRESS KIT</h2>
     </a>
   </nav>
-  <div>
+  <div class="content">
     {@render children()}
   </div>
 
@@ -73,5 +73,10 @@
 
   footer * {
     text-align: center;
+  }
+
+  .content {
+    width: 70%;
+    align-self: center;
   }
 </style>
